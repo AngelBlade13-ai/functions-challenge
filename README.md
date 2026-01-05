@@ -1,4 +1,4 @@
-# JavaScript Functions Challenge
+[# JavaScript Functions Challenge
 
 Welcome to the **JavaScript Functions Challenge**! 🚀
 
@@ -30,3 +30,4 @@ By the end of these challenges, you'll be able to:
 Get ready to enhance your JavaScript skills, build practical solutions, and have fun along the way!
 
 Happy coding! 🎉
+]Forked from original for easy repo creation. Link to Page:(https://angelblade13-ai.github.io/functions-challenge/)
