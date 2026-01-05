@@ -6,6 +6,7 @@
 function squareNumber(num) {
   // Your code here (Hint: Use Math.pow(num, 2) or num * num)
   // Example: return num * num;
+ return Math.pow(num, 2)
 }
 // Test Challenge 1
 console.log(squareNumber(4)); // Expected: 16
@@ -16,6 +17,7 @@ console.log(squareNumber(4)); // Expected: 16
 function repeatString(str) {
   // Your code here (Hint: Use a loop to concatenate the string 3 times)
   // Example: let result = ""; for (let i = 0; i < 3; i++) { result += str; } return result;
+  let result = ""; for (let i = 0; i < 3; i++) {result += str;} return result;
 }
 // Test Challenge 2
 console.log(repeatString("Hello")); // Expected: "HelloHelloHello"
@@ -26,6 +28,7 @@ console.log(repeatString("Hello")); // Expected: "HelloHelloHello"
 function scopingData() {
   // Your code here (Hint: Use nested functions or block scope to manage variables)
   // Example: let message = "Hello"; function inner() { return message + " World"; } return inner();
+  let message= "Hello"; function inner() { return message + " World"; } return inner();
 }
 // Test Challenge 3
 console.log(scopingData()); // Expected: "Hello World"
@@ -34,6 +37,7 @@ console.log(scopingData()); // Expected: "Hello World"
 // Goal: Create a function that reverses a given string.
 // Error: Incorrect reversed string.
 function reverseString(str) {
+  return str.split("").reverse().join("");
   // Your code here (Hint: Use split, reverse, and join methods)
   // Example: return str.split("").reverse().join("");
 }
@@ -46,6 +50,7 @@ console.log(reverseString("Hello")); // Expected: "olleH"
 function randomNumber() {
   // Your code here (Hint: Use Math.random() and Math.floor())
   // Example: return Math.floor(Math.random() * 10) + 1;
+  return Math.floor(Math.random() * 10) + 1;
 }
 // Test Challenge 5
 console.log(randomNumber()); // Expected: A random number between 1 and 10

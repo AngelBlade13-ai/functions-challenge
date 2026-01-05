@@ -7,6 +7,7 @@ let fox = "Jumped Over The Lazy Dog";
 function jumpOverFence(fox) {
   // Your code here (Hint: Use string interpolation to append "Over The Fence")
   // Example: return `${fox} Over The Fence`;
+  return `${fox} Over The Fence`
 }
 
 // Test Challenge 1
@@ -18,6 +19,7 @@ console.log(jumpOverFence(fox)); // Expected: "Jumped Over The Lazy Dog Over The
 function isEvenOrOdd(num) {
   // Your code here (Hint: Use the modulus operator % to check for remainder when divided by 2)
   // Example: return num % 2 === 0;
+  return num % 2 === 0;
 }
 
 // Test Challenge 2
@@ -30,6 +32,7 @@ console.log(isEvenOrOdd(5));  // Expected: false
 function celsiusToFahrenheit(celsiusNumber) {
   // Your code here (Hint: Apply the formula (C * 9/5) + 32)
   // Example: return (celsiusNumber * 9/5) + 32;
+  return (celsiusNumber * 9/5) + 32;
 }
 
 // Test Challenge 3
@@ -42,6 +45,7 @@ console.log(celsiusToFahrenheit(0));  // Expected: 32
 function findMaxNumber(arr) {
   // Your code here (Hint: Use Math.max(...arr))
   // Example: return Math.max(...arr);
+  return Math.max(...arr)
 }
 
 // Test Challenge 4
@@ -53,6 +57,7 @@ console.log(findMaxNumber([1, 2, 3, 4, 5])); // Expected: 5
 function sayHelloWorld() {
   // Your code here (Hint: Use setTimeout to delay the console.log)
   // Example: setTimeout(() => console.log("Hello World"), 2000);
+  setTimeout(() => console.log("Hello World"), 2000);
 }
 
 // Test Challenge 5
